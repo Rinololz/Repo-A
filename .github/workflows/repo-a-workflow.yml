@@ -16,5 +16,5 @@ jobs:
           curl -X POST \
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token ${{ secrets.REPO_B_PAT }}" \
-            https://api.github.com/repos/rinololz/REPO_B/dispatches \
+            https://api.github.com/repos/Rinololz/REPO_B/dispatches \
             -d '{"event_type":"custom-event"}'
